@@ -748,6 +748,7 @@ textarea {
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 10;
 }
 
 #whats {
@@ -776,6 +777,8 @@ footer {
     clear: both;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 100;
 }
 
 footer p {
@@ -935,6 +938,8 @@ footer p {
         justify-content: space-between;
         position: relative;
         padding: 1rem 5%;
+        height: 4rem;
+        position:sticky
     }
 
     .nav-conteudo {
@@ -1232,6 +1237,7 @@ footer p {
 
     #bt-topo {
         display: none;
+        z-index: 9;
     }
 
 
@@ -1246,7 +1252,7 @@ footer p {
         display: none;
         opacity: 0;
         transition: opacity 0.3s ease-in-out, transform 0.3s ease;
-        z-index: 999;
+        z-index: 10;
         cursor: pointer;
         background-size: 70%;
         background-repeat: no-repeat;
@@ -1281,6 +1287,8 @@ footer p {
         clear: both;
         align-items: center;
         justify-content: center;
+        position: relative;
+        z-index: 100;
     }
 
     footer p {
